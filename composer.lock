@@ -1,0 +1,166 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "59bc158c4bb054806e9d6a9ca48c7dfb",
+    "packages": [
+        {
+            "name": "components/jquery",
+            "version": "3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "e5534d4ab8e80c159553d507e358ed20a806d3bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/e5534d4ab8e80c159553d507e358ed20a806d3bf",
+                "reference": "e5534d4ab8e80c159553d507e358ed20a806d3bf",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JS Foundation and other contributors"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "time": "2017-03-21T07:01:49+00:00"
+        },
+        {
+            "name": "jquery-form/form",
+            "version": "v4.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jquery-form/form.git",
+                "reference": "c15a69251b36544cda48892c23e0dcec21fff838"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jquery-form/form/zipball/c15a69251b36544cda48892c23e0dcec21fff838",
+                "reference": "c15a69251b36544cda48892c23e0dcec21fff838",
+                "shasum": ""
+            },
+            "require": {
+                "components/jquery": ">=1.7"
+            },
+            "type": "library",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "src/jquery.form.js"
+                    ],
+                    "shim": {
+                        "deps": [
+                            "jquery"
+                        ]
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(MIT OR LGPL-3.0)"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Morris"
+                },
+                {
+                    "name": "Mike Alsup"
+                }
+            ],
+            "description": "The jQuery Form Plugin allows you to easily and unobtrusively upgrade HTML forms to use AJAX.",
+            "homepage": "https://github.com/jquery-form/form",
+            "keywords": [
+                "ajax",
+                "form",
+                "html-form",
+                "jquery",
+                "jquery-form",
+                "jquery-plugin",
+                "json",
+                "json-form"
+            ],
+            "time": "2017-03-29T13:22:24+00:00"
+        },
+        {
+            "name": "kbsali/redmine-api",
+            "version": "v1.5.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kbsali/php-redmine-api.git",
+                "reference": "fa7bdedf84ab68829e7ce8c340c475ec4259f575"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kbsali/php-redmine-api/zipball/fa7bdedf84ab68829e7ce8c340c475ec4259f575",
+                "reference": "fa7bdedf84ab68829e7ce8c340c475ec4259f575",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": "^5.4 || ^7.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "^4.8.35 || ^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Redmine\\": "lib/Redmine/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Saliou",
+                    "email": "kevin@saliou.name",
+                    "homepage": "http://kevin.saliou.name"
+                }
+            ],
+            "description": "Redmine API client",
+            "homepage": "https://github.com/kbsali/php-redmine-api",
+            "keywords": [
+                "api",
+                "redmine"
+            ],
+            "time": "2017-05-29T10:06:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^5.0 || ^7.0",
+        "ext-curl": "*"
+    },
+    "platform-dev": []
+}
