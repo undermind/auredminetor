@@ -4,7 +4,7 @@
    "homepage": "https://github.com/undermind/auredminetor",
     "type": "project",
     "require": {
-        "phpseclib/phpseclib": "~1.0",
+        "kbsali/redmine-api": "~1.0",
         "php": "^5.0 || ^7.0",
         "ext-curl": "*",
         "components/jQuery": "3.2.*",
