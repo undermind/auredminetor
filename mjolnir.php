@@ -102,6 +102,5 @@ echo '
 		});
 	</script>
 </body></html>';
-//					data:	"reg="+i+"&pem="+region[i],
 
 ?>
